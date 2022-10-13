@@ -1,0 +1,129 @@
+body{
+    /* background: url("Ezio.jpg"); */
+    /* background-image: url("Ezio.jpg"); */
+    background-color: black;
+    font-size: 1.15em; 
+    /* font-size: 1mm; */
+    text-align: justify;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+}
+#Climb-image{
+    /* Absolute values */
+
+    /* height: 400pt; */
+    /* height: 400pc; */
+
+
+    height: 400px;
+    width: 40%;
+
+    /* relative values */
+    /* height: 70vh;
+    width: 70vw; */
+    /* background: linear-gradient(to right, red,violet, magenta , blue); */
+    /* background: linear-gradient(to right, rgb(58, 52, 235), rgba(58, 52, 235,0));
+    background: linear-gradient(to top, rgb(58, 52, 235), rgba(58, 52, 235,0));
+    background: linear-gradient(to left, rgb(58, 52, 235), rgba(58, 52, 235,0));
+    background: linear-gradient(to bottom right, rgb(58, 52, 235), rgba(58, 52, 235,0));
+    background: linear-gradient(-260, rgb(58, 52, 235), rgba(58, 52, 235,0)); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover ; */
+    background: radial-gradient(circle, red 20%, blue 30%, black 5%)
+}
+@font-face{
+    src : url(Lobster.ttf);
+    font-family: lobster;
+}
+.main-title{
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(221, 31, 31);
+    font-family: lobster;
+}
+
+.vision-link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.italics{
+    font-style: italic;
+    font-style: oblique;
+}
+.moto{
+    font-style: italic;
+    font-weight: 400;
+    color:royalblue;
+    font-family: serif;
+    text-align: center;
+}
+.Vision{
+    /* background-color: rgb(138, 145, 235); */
+}
+p{
+    color: wheat;
+    font-family: serif;
+    text-align: justify;
+}
+#eagle-vision{
+    color: rgb(69, 43, 140);
+}
+.climb-photo{
+    height: 300px;
+    width: 40vw ;
+    border: 4px double yellowgreen;
+    margin: 15px;
+    
+}
+.leap-photo{
+    height: 300px;
+    width: 40vw;
+    border: 5px solid greenyellow;
+    padding-right : 30px;
+    padding-left: 30px;
+    float: inherit;
+}
+.Action-photo{
+    height: 300px;
+    width: 40%;
+    border: 6px solid white;
+    padding: 0px 100px 20px 100px;
+}
+.eagle{
+    float: inherit;
+}
+.query1{
+    float: right;
+    border: 4px double rebeccapurple;
+    /* display: inline; */
+}
+.eagle-vision-table{
+    display: inline;
+}
+
+
+
+
+.container-item{
+    background: rgb(255, 94, 0);
+    color: black;
+    margin: 50%;
+    text-align: center;
+    font-size: 25px;
+
+    width: 40px;
+}
+
+.flex-container{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* justify-content: flex-end; */
+
+    align-items: baseline;
+}
+

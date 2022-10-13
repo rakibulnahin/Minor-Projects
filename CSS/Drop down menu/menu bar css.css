@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(pix.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    font-family: sans-serif;
+   
+}
+
+.menu-bar{
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    align-content: center;
+}
+
+.menu-bar ul li{
+    width: 100px;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(10, 105, 105);
+    border-radius: 20px;
+    
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-bar ul li:hover{
+    background: rgb(10, 167, 167);
+    transform: scale(1.25);
+    transition-duration: 1s;
+    border-radius: 400px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.content-segment-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .content-segment-1{
+    display: block;
+    position: absolute;
+    /* background: blue; */
+    margin-top: 10px;
+}
+
+.menu-bar ul li:hover .content-segment-1 ul{
+    margin: 10px;
+    display: block;
+}
+
+.menu-bar ul li:hover .content-segment-1 ul li{
+    margin: 10px;
+    transform: scale(1);
+    background-color: rgb(35, 220, 233);
+}
+
+.content-segment-2{
+    display: none;
+}
+
+.list-segmenting-1:hover .content-segment-2{
+    display: block;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -50px;
+    /* background-color: aquamarine; */
+}

@@ -1,0 +1,22 @@
+.grid-container{
+    height: 300px;
+    background-color: aliceblue;
+    margin: 10px;
+    /* justify-content: space-around;
+    align-content: flex-end; */
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 200px;
+
+    grid-template-rows: auto auto;
+    grid-row-gap: 120px;
+
+    grid-gap: 120px 200px;
+}
+.grid-item{
+    margin: 10px;
+    width: 50px;
+    line-height: 40px;
+    text-align: center;
+}

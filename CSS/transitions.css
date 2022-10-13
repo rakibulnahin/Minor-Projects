@@ -1,0 +1,41 @@
+body{
+    background: rgb(38, 102, 171);
+}
+
+@font-face{
+    src: url(Lobster.ttf);
+    font-family: lobster;
+}
+
+.button{
+    /* height: 50px;
+    width: 100px; */
+    background-color: aquamarine;
+    color: rgb(12, 130, 233);
+    text-align: center;
+    font-style: italic;
+    font-family: lobster;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    transition: all 500ms ease-in-out;
+}
+
+.button:hover{
+    background-color: rgb(189, 241, 225);
+    /* transform: translate(0px, 20px);*/
+    transform: scale(1.1);
+    /* transform: rotate(45deg); */
+    
+}
+
+.earth{
+    transition: transform 500ms ease-in
+}
+
+.earth:hover{
+    transform: scale(0.8);
+}
+

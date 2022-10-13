@@ -1,0 +1,68 @@
+body {
+    background: cyan;
+}
+
+.title{
+    color: blue;
+    font-family: myFont;
+    src: url(Lobster-Regular.ttf);
+}
+h2 {
+    color: crimson;
+}
+
+h3 {
+    color: rgb(46, 37, 102);
+}
+/* psudo Selecters */
+h2:hover {
+    color: blueviolet;
+}
+#eagle-vision:hover{
+    color: blue;
+}
+p {
+    color: rgb(26, 240, 18);
+}
+
+#eagle-vision-link:link{
+    color: lime;
+}
+
+#eagle-vision-link:visited{
+    color: red;
+}
+
+/* Advanced selectors */
+
+h2 + a{
+    color: blueviolet;
+}
+
+textarea ~ button{              /*must be in the same parent classs*/
+    color: blue;
+}
+
+ul > li{                        /*every list under an unsorted list*/
+    color: magenta;
+}
+
+ul li {                         /*li is a descendent of us*/
+    color: darkblue;
+}
+
+img[src^=""]{
+    border: 100px solid black;
+}
+img[src$=""]{
+    border: 100px solid black;
+}
+img[src*=""]{
+    border: 100px solid black;
+}
+h1[class~=main-title]{
+    background: gray;
+}
+h1[class|=main-title]{          /*this is used when there is a dash after the class for example main-title-1225*/
+    background: black;
+}
